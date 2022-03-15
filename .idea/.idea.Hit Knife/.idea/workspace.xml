@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="86abe889-0f9e-4684-af97-940507e14dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/OilFactory.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/Resource.cs" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/01/ed76c24d/Component.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/ThrowingSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" root0="FORCE_HIGHLIGHTING" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KnifeThrower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/KnifeThrowerSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrowerSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCall.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUntil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUtil.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/ThrownigSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/ThrowingSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stump/Stump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpAdjustmenSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpFillingSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="26HpDrKWbaLtfG9BnkX8oOFx3oE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="autoscrollFromSource" value="true" />
+    <option name="autoscrollToSource" value="true" />
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="Discover.Launch.Via.Unity" value="true" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+  </component>
+  <component name="RunManager" selected="Attach to Unity Editor.Attach to Unity Editor">
+    <configuration name="Attach to Unity Editor &amp; Play" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="UNITY_ATTACH_AND_PLAY" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Attach to Unity Editor" type="UNITY_DEBUG_RUN_CONFIGURATION" factoryName="Unity Debug" show_console_on_std_err="false" show_console_on_std_out="false" port="50000" address="localhost">
+      <option name="allowRunningInParallel" value="false" />
+      <option name="listenPortForConnections" value="false" />
+      <option name="pid" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="86abe889-0f9e-4684-af97-940507e14dff" name="Default Changelist" comment="" />
+      <created>1647090249035</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1647090249035</updated>
+      <workItem from="1647090254014" duration="3571000" />
+      <workItem from="1647093906250" duration="31780000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="UnityProjectConfiguration" hasMinimizedUI="true" />
+  <component name="UnityUnitTestConfiguration" currentTestLauncher="EditMode" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="2012" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog" timestamp="1647093830035">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2012" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.DirectoryHistoryDialog/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1647093830035" />
+    <state x="2012" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1647093830035">
+      <screen x="1920" y="30" width="1920" height="1050" />
+    </state>
+    <state x="2012" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1647093830035" />
+  </component>
+</project>
