@@ -1,25 +1,24 @@
+using System.Collections.Generic;
 using UnityEngine;
 
 namespace Stumps
 {
     public class StumpFillingSpawn : MonoBehaviour
     {
-        [SerializeField] private float _spawnOffset = 0.3f;
+        [SerializeField] private GameObject _knifePrefab;
+        [SerializeField] private GameObject _applePrefab;
 
-        [SerializeField] private Transform _knifePrefab;
-        [SerializeField] private Transform _applePrefab;
+        [SerializeField] private Queue<GameObject> _fillings = new Queue<GameObject>();
         
         private Stump _stump;
         private CircleCollider2D _stumpColider;
-
-        private int _fillingCount = 0;
-        private int _appleCount = 0;
-        private int _knifeCount = 0;
+        private Transform _stumpCenter;
         
         private void Awake()
         {
             _stump = GetComponent<Stump>();
             _stumpColider = GetComponent<CircleCollider2D>();
+            _stumpCenter = transform;
             
             SpawnFillings();
         }
@@ -28,37 +27,29 @@ namespace Stumps
         {
             EvaluateFilling();
 
-            float spawnDistance = (_stumpColider.radius / 2) + _spawnOffset;
-            float spawnAngleStep = 360 / _fillingCount;
+            float spawnDistance = _stumpColider.radius;
+            float spawnAngleStep = 360 / _fillings.Count;
             
-            for (int i = 1; i < _fillingCount; i++)
+            for (int i = 1; i <= _fillings.Count; i++)
             {
-                float angle = (spawnAngleStep * i) * Mathf.Deg2Rad;
-                Vector2 spawnPosition = new Vector2(Mathf.Sin(angle), Mathf.Cos(angle));
-                spawnPosition *= spawnDistance;
-
-                if (_appleCount > 0)
-                {
-                    Instantiate(_applePrefab, spawnPosition, Quaternion.identity, transform);
-                    _appleCount--;
-                }
-                else
-                {
-                    Instantiate(_knifePrefab, spawnPosition, Quaternion.identity, transform);
-                }
+                float angle = spawnAngleStep * i;
                 
-                Debug.Log($"{spawnAngleStep * i} {spawnPosition} I{i}");
+                Vector3 spawnPosition = PositionOnCircle(_stumpCenter.position, spawnDistance, angle);
+                Vector3 direction = spawnPosition - _stumpCenter.position;
+                float angleRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
+                Quaternion spawnRotation = Quaternion.AngleAxis(angleRotation,Vector3.forward);
+
+                Instantiate(_fillings.Dequeue(), spawnPosition, spawnRotation);
             }
         }
 
         private Vector3 PositionOnCircle(Vector3 center, float radius, float angle)
         {
-            Vector3 position = Vector3.zero;
-
+            Vector3 position;
             angle *= Mathf.Deg2Rad;
             
             position.x = center.x + radius * Mathf.Sin(angle);
-            position.y = center.y + radius * Mathf.Sin(angle);
+            position.y = center.y + radius * Mathf.Cos(angle);
             position.z = center.z;
 
             return position;
@@ -68,12 +59,16 @@ namespace Stumps
         {
             if (Random.Range(0, 100) <= _stump.Settings.AppleSpawnChance)
             {
-                _appleCount++;
+                _fillings.Enqueue(_applePrefab);
             }
 
-            _knifeCount = Random.Range(_stump.Settings.StuckedKnifeMinimum, _stump.Settings.StuckedKnifeMaximum);
+            int knifeCount = Random.Range(_stump.Settings.StuckedKnifeMinimum, _stump.Settings.StuckedKnifeMaximum);
 
-            _fillingCount = _appleCount + _knifeCount;
+            for (int i = 0; i < knifeCount; i++)
+            {
+                _fillings.Enqueue(_knifePrefab);
+            }
+
         }
     }
 }

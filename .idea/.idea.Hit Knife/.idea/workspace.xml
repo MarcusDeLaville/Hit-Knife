@@ -11,12 +11,15 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86abe889-0f9e-4684-af97-940507e14dff" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/OilFactory.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/Resource.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/indexLayout.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stumps/StumpSettingsDefault.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stumps/StumpSettingsDefault.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,7 +27,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" root0="FORCE_HIGHLIGHTING" />
@@ -55,7 +58,6 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/ThrowingSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/Stump.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpHit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpAdjustmenSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpFillingSpawn.cs" />
@@ -63,6 +65,7 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" />
       </list>
     </option>
@@ -107,7 +110,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647090249035</updated>
       <workItem from="1647090254014" duration="3571000" />
-      <workItem from="1647093906250" duration="31780000" />
+      <workItem from="1647093906250" duration="41140000" />
     </task>
     <servers />
   </component>

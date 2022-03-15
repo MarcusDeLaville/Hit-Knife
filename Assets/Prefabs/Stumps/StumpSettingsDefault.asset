@@ -12,8 +12,9 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: d6d7799232c818548861ea21b477a187, type: 3}
   m_Name: StumpSettingsDefault
   m_EditorClassIdentifier: 
-  AppleSpawnChance: 25
-  StuckedKnifeCount: 3
+  AppleSpawnChance: 100
+  StuckedKnifeMinimum: 3
+  StuckedKnifeMaximum: 3
   Multiplier:
     serializedVersion: 2
     m_Curve:
@@ -128,4 +129,4 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  SpeedRotation: 0.5
+  SpeedRotation: 0

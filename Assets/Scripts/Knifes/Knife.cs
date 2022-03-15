@@ -3,6 +3,7 @@
 public class Knife : MonoBehaviour
 {
     [SerializeField] private TrailRenderer _trail;
+    [SerializeField] private bool _stuckAtStart;
     
     public Rigidbody2D Rigidbody { get; private set; }
     public Collider2D Collider { get; private set; }
@@ -12,6 +13,11 @@ public class Knife : MonoBehaviour
     {
         Rigidbody = GetComponent<Rigidbody2D>();
         Collider = GetComponent<Collider2D>();
+
+        if (_stuckAtStart == true)
+        {
+            Stuck();
+        }
     }
 
     private void OnCollisionEnter2D(Collision2D other)
@@ -28,12 +34,17 @@ public class Knife : MonoBehaviour
 
         if (Stucked == false)
         {
-            _trail.enabled = false;
-            Rigidbody.isKinematic = true;
-            Rigidbody.velocity = Vector2.zero;
-            Rigidbody.freezeRotation = true;
-            Stucked = true;
-            transform.SetParent(other.transform);
+            Stuck(other.transform);
         }
+    }
+
+    private void Stuck(Transform stackTarget = null)
+    {
+        _trail.enabled = false;
+        Rigidbody.isKinematic = true;
+        Rigidbody.velocity = Vector2.zero;
+        Rigidbody.freezeRotation = true;
+        Stucked = true;
+        transform.SetParent(stackTarget);
     }
 }
