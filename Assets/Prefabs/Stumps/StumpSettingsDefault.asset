@@ -13,7 +13,7 @@ MonoBehaviour:
   m_Name: StumpSettingsDefault
   m_EditorClassIdentifier: 
   AppleSpawnChance: 100
-  StuckedKnifeMinimum: 3
+  StuckedKnifeMinimum: 1
   StuckedKnifeMaximum: 3
   Multiplier:
     serializedVersion: 2
@@ -129,4 +129,4 @@ MonoBehaviour:
     m_PreInfinity: 2
     m_PostInfinity: 2
     m_RotationOrder: 4
-  SpeedRotation: 0
+  SpeedRotation: 0.4

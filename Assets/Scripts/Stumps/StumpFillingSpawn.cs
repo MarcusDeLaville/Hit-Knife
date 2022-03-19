@@ -7,12 +7,14 @@ namespace Stumps
     {
         [SerializeField] private GameObject _knifePrefab;
         [SerializeField] private GameObject _applePrefab;
-
-        [SerializeField] private Queue<GameObject> _fillings = new Queue<GameObject>();
+        
+        private Queue<GameObject> _fillings = new Queue<GameObject>();
         
         private Stump _stump;
         private CircleCollider2D _stumpColider;
         private Transform _stumpCenter;
+
+        private int _fillingsCount;
         
         private void Awake()
         {
@@ -25,12 +27,12 @@ namespace Stumps
 
         private void SpawnFillings()
         {
-            EvaluateFilling();
+            ComputeFilling();
 
             float spawnDistance = _stumpColider.radius;
-            float spawnAngleStep = 360 / _fillings.Count;
+            float spawnAngleStep = 360 / _fillingsCount;
             
-            for (int i = 1; i <= _fillings.Count; i++)
+            for (int i = 1; i <= _fillingsCount; i++)
             {
                 float angle = spawnAngleStep * i;
                 
@@ -39,7 +41,7 @@ namespace Stumps
                 float angleRotation = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg + 90;
                 Quaternion spawnRotation = Quaternion.AngleAxis(angleRotation,Vector3.forward);
 
-                Instantiate(_fillings.Dequeue(), spawnPosition, spawnRotation);
+                Instantiate(_fillings.Dequeue(), spawnPosition, spawnRotation, _stumpCenter);
             }
         }
 
@@ -55,7 +57,7 @@ namespace Stumps
             return position;
         }
         
-        private void EvaluateFilling()
+        private void ComputeFilling()
         {
             if (Random.Range(0, 100) <= _stump.Settings.AppleSpawnChance)
             {
@@ -69,6 +71,7 @@ namespace Stumps
                 _fillings.Enqueue(_knifePrefab);
             }
 
+            _fillingsCount = _fillings.Count;
         }
     }
 }

@@ -11,15 +11,50 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="86abe889-0f9e-4684-af97-940507e14dff" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Apples.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Apples/Apple.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Apples/Apple.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/Stage.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/Stage.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpEndurance.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpEndurance.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSpawner.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSpawner.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Animations.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Animations/Animation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Animations/Animation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Animations/KnifeAnimation.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Animations/KnifeAnimation.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs.meta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIHandler.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Assets/Scripts/UI/UIHandler.cs.meta" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/OilFactory.cs" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../Resource Factory/Assets/Scripts/Resource.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/indexLayout.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/indexLayout.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.Hit Knife/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Animations.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AppleFull.prefab" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/AppleFull.prefab.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Knifes/Knife Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Knifes/Knife Default.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Knifes/Knife Stucked.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Knifes/Knife Stucked.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Stump Hit.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Stump Hit.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Particles/Wood/BreakWoods.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Particles/Wood/BreakWoods.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stumps/Stump Default.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stumps/Stump Default.prefab" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Prefabs/Stumps/StumpSettingsDefault.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Prefabs/Stumps/StumpSettingsDefault.asset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scenes/Home.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Home.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs.meta" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/EditorBuildSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/Physics2DSettings.asset" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" beforeDir="false" afterPath="$PROJECT_DIR$/ProjectSettings/ProjectSettings.asset" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -30,16 +65,25 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Animations/KnifeAnimation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUtil.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/Stage.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/UIHandler.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeCounter.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/07C89F75-2069-4139-9913-32D3CF930D48/01/ed76c24d/Component.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/ThrowingSettings.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUtil.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Apples/Apple.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpEndurance.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/UI/Animations/Animation.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSpawner.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -54,19 +98,35 @@
         <option value="$PROJECT_DIR$/Assets/Scripts/Utils/DelayedCallUtil.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/ScreenTouch.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/ThrownigSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/ThrowingSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpSettings.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/Stump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpHit.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpAdjustmenSpawn.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stump/StumpFillingSpawn.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSettings.cs" />
-        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Apple.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Apples/Apple.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeUI.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/evel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Level.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHit.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpHealth.cs" />
         <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpFillingSpawn.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeCounter.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/Stump.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpEndurance.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/KnifeThrower.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Knifes/Knife.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/Stage.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Levels/LevelHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/Stumps/StumpSpawner.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/GameHandler.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Animation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Animations/Animation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Animations/KnifeAnimation.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/Panel.cs" />
+        <option value="$PROJECT_DIR$/Assets/Scripts/UI/UIHandler.cs" />
       </list>
     </option>
   </component>
@@ -110,7 +170,7 @@
       <option name="presentableId" value="Default" />
       <updated>1647090249035</updated>
       <workItem from="1647090254014" duration="3571000" />
-      <workItem from="1647093906250" duration="41140000" />
+      <workItem from="1647093906250" duration="81644000" />
     </task>
     <servers />
   </component>
@@ -143,5 +203,9 @@
       <screen x="1920" y="30" width="1920" height="1050" />
     </state>
     <state x="2012" y="122" width="1736" height="866" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1920.30.1920.1050/0.30.1920.1050@1920.30.1920.1050" timestamp="1647093830035" />
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup" timestamp="1647717285885">
+      <screen x="0" y="30" width="1920" height="1050" />
+    </state>
+    <state x="623" y="257" width="672" height="678" key="search.everywhere.popup/1920.30.1920.1050/0.30.1920.1050@0.30.1920.1050" timestamp="1647717285885" />
   </component>
 </project>

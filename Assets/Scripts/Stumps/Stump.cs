@@ -5,6 +5,8 @@ namespace Stumps
 {
     public class Stump : MonoBehaviour
     {
+        public Action Break;
+        
         [SerializeField] private StumpSettings _settings;
         
         private Transform _transform;

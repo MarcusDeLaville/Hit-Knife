@@ -44,21 +44,35 @@
           </e>
         </e>
         <e p="Scripts" t="Include">
+          <e p="Apples" t="Include">
+            <e p="Apple.cs" t="Include" />
+          </e>
           <e p="GameHandler.cs" t="Include" />
           <e p="Knifes" t="Include">
             <e p="Knife.cs" t="Include" />
+            <e p="KnifeCounter.cs" t="Include" />
             <e p="KnifeThrower.cs" t="Include" />
             <e p="ThrowingSettings.cs" t="Include" />
           </e>
           <e p="Levels" t="Include">
             <e p="LevelHandler.cs" t="Include" />
+            <e p="Stage.cs" t="Include" />
           </e>
           <e p="ScreenTouch.cs" t="Include" />
           <e p="Stumps" t="Include">
             <e p="Stump.cs" t="Include" />
+            <e p="StumpEndurance.cs" t="Include" />
             <e p="StumpFillingSpawn.cs" t="Include" />
-            <e p="StumpHit.cs" t="Include" />
             <e p="StumpSettings.cs" t="Include" />
+            <e p="StumpSpawner.cs" t="Include" />
+          </e>
+          <e p="UI" t="Include">
+            <e p="Animations" t="Include">
+              <e p="Animation.cs" t="Include" />
+              <e p="KnifeAnimation.cs" t="Include" />
+            </e>
+            <e p="Panel.cs" t="Include" />
+            <e p="UIHandler.cs" t="Include" />
           </e>
           <e p="Utils" t="Include">
             <e p="DelayedCallUtil.cs" t="Include" />
