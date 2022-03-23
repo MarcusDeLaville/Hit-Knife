@@ -129,8 +129,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _hitEffectPrefab: {fileID: 2554483838187984347, guid: b3f4f1108e645e743ab7e3b515c123c8, type: 3}
-  _emitCount: 0
-  _brakeEffect: {fileID: 8714799811726291320}
+  _breakEffect: {fileID: 8714799811726291320}
   _spriteRenderer: {fileID: 8714799810953394515}
   _punchForse: {x: 0.2, y: 0.2, z: 0.2}
   _punchDuration: 0.3

@@ -10,11 +10,13 @@ namespace UI
         public void Show(float duration = 0.5f)
         {
             _canvasGroup.DOFade(1f, duration);
+            _canvasGroup.blocksRaycasts = true;
         }
 
         public void Hide(float duration = 0.5f)
         {
             _canvasGroup.DOFade(0f, duration);
+            _canvasGroup.blocksRaycasts = false;
         }
         
     }
